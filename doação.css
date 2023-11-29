@@ -1000,6 +1000,14 @@ main {
     
   }
 
+    #coluna2{
+    margin-top: 20%;
+  }
+
+  #coluna3{
+    margin-top: 20%;
+  }
+
 }
 
 
@@ -1103,6 +1111,13 @@ main {
     margin-top: -3.6%;
     text-align: center;
     
+  }
+    #coluna2{
+    margin-top: 20%;
+  }
+
+  #coluna3{
+    margin-top: 20%;
   }
 }
 
