@@ -988,6 +988,10 @@ main {
     display: none;
   }
 
+ul.nav-list{
+    display: none;
+  }
+
 .footer-list{
     flex-direction: column;
     padding: 10%;
@@ -996,6 +1000,8 @@ main {
     font-size: 10px;
 
   }
+
+
   #footer_map{
     display: none;
   }
