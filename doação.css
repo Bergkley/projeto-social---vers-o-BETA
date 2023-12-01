@@ -984,12 +984,17 @@ main {
     display: none;
     
   }
-  .footer-list{
+  ul.nav-list{
+    display: none;
+  }
+
+.footer-list{
     flex-direction: column;
     padding: 10%;
-    margin-top: -8%;
+    margin-top: -7%;
     margin-left: 5%;
-    font-size: 12px;
+    font-size: 10px;
+
   }
   #footer_map{
     display: none;
