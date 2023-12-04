@@ -410,7 +410,7 @@ nav .social-icon:hover {
   }
   
   main {
-  background: url("Desfoque.png") no-repeat center center;
+  background: url("ImagemDeFundo.png") no-repeat center center;
   background-size: cover;
   height: 100vh; 
   animation: pulsec 3s ease; 
