@@ -722,8 +722,9 @@ nav .social-icon:hover {
     background: none
   }
   .image-overlay{
-    display: none;
+    background: url("onda.png") no-repeat center center ;
   }
+
 
 }
 
@@ -781,12 +782,13 @@ nav .social-icon:hover {
   #footer-list-contato{
     margin-left: 1%;
   }
-    main{
+   main{
     background: none
   }
   .image-overlay{
-    display: none;
+    background: url("onda.png") no-repeat center center ;
   }
+
 
 
 }
