@@ -718,6 +718,12 @@ nav .social-icon:hover {
   #footer-list-contato{
     margin-left: 1%;
   }
+  main{
+    background: none
+  }
+  .image-overlay{
+    display: none;
+  }
 
 }
 
@@ -774,6 +780,12 @@ nav .social-icon:hover {
   }
   #footer-list-contato{
     margin-left: 1%;
+  }
+    main{
+    background: none
+  }
+  .image-overlay{
+    display: none;
   }
 
 
