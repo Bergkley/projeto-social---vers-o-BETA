@@ -729,6 +729,7 @@ section.portfolio .flex {
   color: #fff;
   opacity: 0;
   transition: .5s;
+  text-align:  center;
 }
 
 .overlay:hover {
