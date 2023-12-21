@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+		<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>CONTATO | INSTITUTO DOANDO QUE SE RECEBE</title>
+		<link href="contato.css"rel="stylesheet"type="text/css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="icon" type="image/png" href="logo.png">
+	</head>
+
+	<header>
+		<nav>
+		  <a class="logo" href="/">
+			  <img src="logo-ConversImagem.png" alt="" class="logo-img">
+		  </a>
+		  <ul class="nav-list">
+			<li><a href="index.html" >Início</a></li>
+          	<li><a href="sobre.html" >Sobre</a></li>
+          	<li><a href="galeria.html">Galeria</a></li>
+          	<li><a href="aplicativo.html">Aplicativo</a></li>
+          	<li><a href="contato.html" class="active">Contato</a></li>
+		  </ul>
+		  <a target="_blank" href="https://www.facebook.com/DoandoQueSeRecebe/" class="social-icon" class="facebook"><i class="fab fa-facebook"></i></a>
+		  <a target="_blank" href="https://api.whatsapp.com/send?phone=5585988970084&text=Quero+ser+um+Doador" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+		  <a target="_blank" href="https://www.instagram.com/institutodoandoqueserecebe/" class="social-icon"><i class="fab fa-instagram"></i></a>
+		  <div class="mobile-menu">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		  </div>
+		  <div id="scroll-to-bottom">
+			<button  class="btn" onclick="scrollToBottom()">quero contribuir</button>
+		  </div>
+		  
+		</nav>
+		<!-- <button class="btn-whatsapp">
+		  <a target="_blank" href="https://api.whatsapp.com/send?phone=5585988970084&text=Quero+ser+um+Doador">
+			<i class="fab fa-whatsapp"></i>
+		  </a>
+		</button> -->
+	</header>
+
+	<body>
+		<!-- <div class="full-screen-image">
+			<img src="tela inicial oficial.jpeg" alt="Imagem de Tela Cheia" />
+		</div> -->
+
+		<div class="contact-wrap">
+			<div class="contact-in">
+				<h1>Informações de contatos</h1>
+				<h2><i class="fa fa-phone" aria-hidden="true"></i> Celular</h2>
+				<p>85 98897-0084</p>
+				<h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+				<p>institutodoandoqueserecebe@gmail.com</p>
+				<h2><i class="fa fa-map-marker" aria-hidden="true"></i> Endereço</h2>
+				<p>R. Einstein, 1322 - Vila Peri, Fortaleza - CE</p>
+				<ul>
+					<li><a href="https://www.facebook.com/DoandoQueSeRecebe/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=5585988970084&text=Quero+ser+um+Doador"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/institutodoandoqueserecebe/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="contact-in">
+				<h1>Envie sua mensagem</h1>
+				<form action="https://formsubmit.co/lucasferresilva08@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html" />
+                    <input type="hidden" name="_autoresponse" value="Recebemos a sua mensagem, obrigado pelo contato!">
+                    <H1>Entre em contato</H1>
+                    <p>Preencha o formulario abaixo para entramos em contato com você</p>
+                        <div class="input-single">
+                            <input type="text" name="name" id="nome-box" class="input" required autocomplete="off">
+                            <label for="nome-box">Seu nome completo</label>
+                        </div>
+                        <div class="input-single">
+                            <input type="email" name="email" id="email" class="input" required>
+                            <label for="email" id="email">Seu email</label>
+                        </div>
+                        <div class="input-single" id="mensagem-form">
+							<textarea name="mensagem" id="mensagem" class="input" required></textarea>
+							<label for="mensagem">Sua mensagem</label>
+						</div>						
+                      <div>
+                        <button class="btn" type="submit">Enviar mensagem</button>
+                    </div>
+               </form>
+			</div>
+			<div class="contact-in" id="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63699.47246167071!2d-38.599164467545805!3d-3.762885082037882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x7c749ad4b042991%3A0x4107a8237f70d84c!2sCentro%2C%20Fortaleza%20-%20CE!3m2!1d-3.7329687999999996!2d-38.5264661!4m5!1s0x7c74d1dde03a935%3A0x4814df1dd8041415!2sInstituto%20Doando%20Que%20Se%20Recebe%2C%20R.%20Einstein%2C%201322%20-%20Vila%20Peri%2C%20Fortaleza%20-%20CE%2C%2060730-145!3m2!1d-3.7946690999999997!2d-38.585780299999996!5e0!3m2!1spt-BR!2sbr!4v1699030612624!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<script src="contato.js"></script>
+	</body>
+</html>
